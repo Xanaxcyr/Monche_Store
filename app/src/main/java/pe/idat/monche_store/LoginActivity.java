@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
         email=binding.correo01.getText().toString().trim();
         contra= binding.contraseA01.getText().toString().trim();
         if (email.isEmpty()||contra.isEmpty()){
-            Toast.makeText(this, "No se encontraron datos", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Casillas vacias", Toast.LENGTH_SHORT).show();
         }else {
             Login_Usuario(email,contra);
         }
