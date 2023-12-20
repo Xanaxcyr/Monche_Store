@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Registro"
         android:gravity="center"
         android:textSize="38sp"
         android:textColor="@color/white"/>
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/correo01"
+            android:id="@+id/correo"
             android:hint="Email"
             android:textColor="@color/white"
             android:layout_width="match_parent"
@@ -45,7 +45,7 @@
         app:passwordToggleTint="@color/white">
 
         <EditText
-            android:id="@+id/contraseña01"
+            android:id="@+id/contrasexa"
             android:hint="Password"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
@@ -55,25 +55,45 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/white">
+
+        <EditText
+            android:id="@+id/confirmar_contrasexa"
+            android:hint="Confirm Password"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
     <TextView
-        android:id="@+id/link_register"
+        android:id="@+id/link_login"
         android:layout_margin="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aun no tienes cuenta - Registrate"
+        android:text="Ya tienes una cuenta? - Logeate"
         android:gravity="center"
         android:textSize="18sp"
         android:textColor="@color/white"/>
 
     <Button
-        android:id="@+id/registrar01"
+        android:id="@+id/registrar"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
-        android:text="INGRESAR"
+        android:text="REGISTRAR"
         android:textColor="@color/black"/>
 
 

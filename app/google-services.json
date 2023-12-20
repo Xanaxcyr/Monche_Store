@@ -1,0 +1,32 @@
+{
+  "project_info": {
+    "project_number": "2077801505",
+    "project_id": "monchestore",
+    "storage_bucket": "monchestore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2077801505:android:b349d54594a380e494b760",
+        "android_client_info": {
+          "package_name": "pe.idat.monche_store"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfVcW61KkEbQUO10e7Nirivny6EYAooy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
+
+
